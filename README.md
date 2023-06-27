@@ -102,7 +102,12 @@ Category 3 Score: 0.566
 
 The corresponding **ROC curves** appear in a pop-up window, along with the **confusion matrix** corresponding to melanoma classification.  
 
-![Sample ROC curve](images/sample_ROC_curve.png)
+<p align="center">
+    <img src="images/sample_ROC_curve.png"
+    alt="Sample ROC curve"
+    style="display: block; margin: 0 auto"
+    />
+</p>
 <p align="center">Sample ROC curve</p>
 
 ![Sample confusion matrix](images/sample_confusion_matrix.png)

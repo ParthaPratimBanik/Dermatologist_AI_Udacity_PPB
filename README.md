@@ -50,7 +50,7 @@ If you are unfamiliar with ROC (Receiver Operating Characteristic) curves and wo
 The top scores (from the ISIC competition) in this category can be found in the image below.
 
 ![Category 1 Rankings](/images/cat_1.jpeg)
-<p style="text-align: center;">Category 1 Rankings</p>
+<p align="center">Category 1 Rankings</p>
 
 ### Category 2: ROC AUC for Melanocytic Classification
 
@@ -61,7 +61,7 @@ In the second category, we will test the ability of your CNN to distinuish betwe
 The top scores in this category (from the ISIC competition) can be found in the image below.
 
 ![Category 2 Rankings](images/cat_2.jpeg)
-<p style="text-align: center;">Category 2 Rankings</p>
+<p align="center">Category 2 Rankings</p>
 
 ### Category 3: Mean ROC AUC
 
@@ -70,7 +70,7 @@ In the third category, we will take the average of the ROC AUC values from the f
 The top scores in this category (from the ISIC competition) can be found in the image below.
 
 ![Category 3 Rankings](images/cat_3.png)
-<p style="text-align:center;">Category 3 Rankings</p>
+<p align="center">Category 3 Rankings</p>
 
 ### Getting your Results
 
@@ -103,10 +103,10 @@ Category 3 Score: 0.566
 The corresponding **ROC curves** appear in a pop-up window, along with the **confusion matrix** corresponding to melanoma classification.  
 
 ![Sample ROC curve](images/sample_ROC_curve.png)
-<p style="text-align: center">Sample ROC curve</p>
+<p align="center">Sample ROC curve</p>
 
 ![Sample confusion matrix](images/sample_confusion_matrix.png)
-<p style="text-align: center">Sample confusion matrix</p>
+<p align="center">Sample confusion matrix</p>
 
 The code for generating the confusion matrix assumes that the threshold for classifying melanoma is set to 0.5.  To change this threshold, you need only supply an additional command-line argument when calling the `get_results.py` file.  For instance, to set the threshold at 0.4, you need only run:
 ```text
